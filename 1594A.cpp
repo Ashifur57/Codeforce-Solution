@@ -10,7 +10,7 @@ int main()
     {
     ll n;
     cin>>n;
-    cout<<(-1*(n-1))<<" "<<n<<"\n";
+    cout<<(-1*(n-1))<<" "<<n<<endl;
     }
     return 0;
 }
