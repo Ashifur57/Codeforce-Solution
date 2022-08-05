@@ -1,14 +1,17 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int main(){
-    int n,m,k;
-    cin >> n >> m >> k;
-    if (n > min(m,k)){
-        cout << "No"<<endl;
+int main()
+{
+    int i,n,m,x,res;
+    cin>>n>>m;
+    x= (n+1)/2;
+    for(i=x;i<=n;i++){
+        if(i%m==0){
+            cout<<i<<endl;
+            return 0;
+        }
     }
-    else{
-        cout << "Yes"<<endl;
-    }
+    cout<<"-1"<<endl;
     return 0;
 }
